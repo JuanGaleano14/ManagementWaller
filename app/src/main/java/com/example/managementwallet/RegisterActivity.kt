@@ -41,19 +41,18 @@ class RegisterActivity : AppCompatActivity() {
         database = FirebaseDatabase.getInstance()
         auth = FirebaseAuth.getInstance()
 
-        dbReference = database.reference.child("users")
+        dbReference = database.reference.child("User")
     }
 
 
     fun irLogin(view: View) {
         val irLogin = Intent(this, LoginActivity::class.java)
         startActivity(irLogin)
-        finish();
+        finish()
     }
 
     fun register(view: View) {
         createNewUser()
-        registrarUsuarioCaja(view)
     }
 
     private fun createNewUser() {
@@ -81,6 +80,8 @@ class RegisterActivity : AppCompatActivity() {
                         userBD?.child("nombre")?.setValue(name)
                         userBD?.child("apellido")?.setValue(lastName)
                         action()
+
+                        registrarUsuarioCaja()
                     }
                 }
         } else {
@@ -88,7 +89,7 @@ class RegisterActivity : AppCompatActivity() {
         }
     }
 
-    fun registrarUsuarioCaja(view: View) {
+    fun registrarUsuarioCaja() {
         if (editTextU.text.isNotBlank()) {
             val usuarioCaja = hashMapOf(
                 "nombre_usuario" to editTextName.text.toString(),
@@ -111,7 +112,7 @@ class RegisterActivity : AppCompatActivity() {
     private fun action() {
         val action = Intent(this, LoginActivity::class.java)
         startActivity(action)
-        finish();
+        finish()
     }
 
     private fun verifyEmail(user: FirebaseUser?) {
