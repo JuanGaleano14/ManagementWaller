@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Management Wallet</string>
+    <string name="tittle_app">Sistemas de ingresos y egresos</string>
+    <string name="label_user">Correo electrónico</string>
+    <string name="label_pass">Contraseña</string>
+    <string name="label_session">Inicia Sesión</string>
+    <string name="label_message">¡Hola! me alegra verte de nuevo.</string>
+    <string name="label_olv">¿Olvidó la contraseña?</string>
+    <string name="label_uni">Unirse</string>
+    <string name="tittle_une">REGISTRO</string>
+    <string name="name_une">Ingresa tu nombre</string>
+    <string name="last_une">Ingresa tus apellidos</string>
+    <string name="cdl_une">Ingresa tu cédula</string>
+    <string name="msg_une">Ingresa tus datos</string>
+    <string name="msg_check">Acepte los terminos de servicios y políticas de privacidad.</string>
+    <string name="msg_btn_un">Guardar</string>
+    <string name="msg_cue">¿Ya tienes cuenta?</string>
+    <string name="msg_rec">Recuperar contraseña</string>
+
+    <string name="lbl_top_main">Sistema de ingresos y egresos</string>
+    <string name="lbl_top_registro_movimientos">Registro de movimientos</string>
+    <string name="rb_label_ingreso">Ingreso</string>
+    <string name="rb_label_egreso">Egreso</string>
+    <string name="lbl_top_register">Registro</string>
+    <string name="et_label_fecha">Fecha</string>
+    <string name="et_label_valor">Valor movimiento</string>
+    <string name="btn_label_register_mov">Registrar</string>
+
+    <string-array name="egresos_array">
+        <item>Seleccione un concepto…</item>
+        <item>Gasolina</item>
+        <item>Arriendo</item>
+        <item>Imprevistos</item>
+        <item>Entretenimiento</item>
+        <item>Salud</item>
+        <item>Ahorro</item>
+        <item>Crédito</item>
+        <item>Estudio</item>
+    </string-array>
+
+    <string-array name="ingresos_array">
+        <item>Seleccione un concepto…</item>
+        <item>Sueldo</item>
+        <item>Inversiones</item>
+        <item>Cadenas</item>
+    </string-array>
+</resources>

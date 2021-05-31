@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Management Wallet</string>
+    <string name="tittle_app">Income and expenditure system</string>
+    <string name="label_user">E-mail address</string>
+    <string name="label_pass">Password</string>
+    <string name="label_session">Log in </string>
+    <string name="label_message">¡Hello! Glad to see you again.</string>
+    <string name="label_olv">¿Forgot password?</string>
+    <string name="label_uni">Join</string>
+    <string name="tittle_une">REGISTER</string>
+    <string name="name_une">Enter your name</string>
+    <string name="last_une">Enter your last-name</string>
+    <string name="cdl_une">Enter  your identification number</string>
+    <string name="msg_une">Enter your data</string>
+    <string name="msg_check">Accept the terms of services and privacy policies.</string>
+    <string name="msg_btn_un">Save</string>
+    <string name="msg_cue">¿Do you have an account?</string>
+    <string name="msg_rec">Recover password</string>
+    <string name="lbl_top_main">Income and expenditure system</string>
+</resources>

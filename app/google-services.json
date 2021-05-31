@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "522380960469",
+    "project_id": "logingestorfinanzas",
+    "storage_bucket": "logingestorfinanzas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522380960469:android:ba96d4ffcd50e6581c385c",
+        "android_client_info": {
+          "package_name": "com.example.managementwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522380960469-ccbkp9s0s3sj5sq1ptum4lrelfbdqmed.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.managementwallet",
+            "certificate_hash": "2384f8204d893d159b52e10d11c569b248759570"
+          }
+        },
+        {
+          "client_id": "522380960469-mg4jddaf7n11hh20olbe0phgj8fm53l8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT3cDapZvAwPTMukOFBLXNIJRbpukr1y0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522380960469-mg4jddaf7n11hh20olbe0phgj8fm53l8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

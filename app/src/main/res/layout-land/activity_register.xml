@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RegisterActivity">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tittle_une"
+                android:textColor="@color/black"
+                android:textSize="25dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/msg_une"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name_une"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colo1"
+                />
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/last_une"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colo1"
+                />
+            <EditText
+                android:id="@+id/editTextLast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cdl_une"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colo1"
+                />
+            <EditText
+                android:id="@+id/editTextCed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_user"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colo1"
+                />
+            <EditText
+                android:id="@+id/editTextU"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                ></EditText>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_pass"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colo1"
+                />
+            <EditText
+                android:id="@+id/editTextP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:password="true"
+                ></EditText>
+
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/msg_check"
+                >
+            </androidx.appcompat.widget.AppCompatCheckBox>
+
+            <Button
+                android:id="@+id/btnReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/msg_btn_un"
+                android:background="@color/colo1"
+                android:layout_marginTop="60dp"
+                ></Button>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/msg_cue"
+                    android:layout_marginTop="20dp"
+                    android:textSize="18dp"
+                    >
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_session"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/colo1"
+                    android:textSize="18dp"
+                    android:onClick="irLogin"
+                    >
+                </TextView>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

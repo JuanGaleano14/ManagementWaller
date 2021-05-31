@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="120dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etDescripcionGasto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etValorGasto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnObtenerFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colo1"
+            android:onClick="obtenerFecha"
+            android:text="FECHA" />
+
+        <Button
+            android:id="@+id/btnGuardarGasto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colo1"
+            android:onClick="guardarGasto"
+            android:text="GUARDAR GASTO" />
+
+        <Button
+            android:id="@+id/btnConsultar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colo1"
+            android:onClick="consultarDatos"
+            android:text="CONSULTAR" />
+
+        <Button
+            android:id="@+id/btnBorrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colo1"
+            android:onClick="borrarGasto"
+            android:text="BORRAR" />
+
+        <Button
+            android:id="@+id/btnRedirigirRegistroMov"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colo1"
+            android:onClick="irRegisterMov"
+            android:text="IR AL REGISTRO" />
+
+        <TextView
+            android:id="@+id/tvDatos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colo1" />
+
+    </LinearLayout>
+
+</LinearLayout>
