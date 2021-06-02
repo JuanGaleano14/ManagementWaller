@@ -130,7 +130,7 @@ class HomeActivity : AppCompatActivity() {
     }
 
     fun irRegisterMov(view: View) {
-        val irRegister = Intent(this, RegistrarMovimientosActivity::class.java)
+        val irRegister = Intent(this, CuentaActivity::class.java)
         startActivity(irRegister)
         //finish()
     }

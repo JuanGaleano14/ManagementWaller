@@ -25,6 +25,11 @@
     <string name="et_label_fecha">Fecha</string>
     <string name="et_label_valor">Valor movimiento</string>
     <string name="btn_label_register_mov">Registrar</string>
+    <string name="lbl_informacion_cuenta">Información Cuenta</string>
+    <string name="lbl_cuenta_nombre">Nombre</string>
+    <string name="lbl_cuenta_apellido">Apellido</string>
+    <string name="lbl_cuenta_correo_registrado">Correo registrado</string>
+    <string name="lbl_cuenta_fecha_de_registro">Fecha de Registro</string>
 
     <string-array name="egresos_array">
         <item>Seleccione un concepto…</item>

@@ -12,6 +12,8 @@ import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.firestore.FirebaseFirestore
+import java.text.SimpleDateFormat
+import java.util.*
 
 
 class RegisterActivity : AppCompatActivity() {
@@ -28,6 +30,9 @@ class RegisterActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
     private lateinit var checkReg: CheckBox
     private val TAG = "RegisterActivity"
+
+    var fechaActual: Calendar = Calendar.getInstance()
+    private val sdf = SimpleDateFormat("yyyy-MM-dd", Locale("es_ES"))
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -94,6 +99,7 @@ class RegisterActivity : AppCompatActivity() {
             val usuarioCaja = hashMapOf(
                 "nombre_usuario" to editTextName.text.toString(),
                 "apellido_usuario" to editTextLast.text.toString(),
+                "fecha_registro" to sdf.format(fechaActual.time).toString(),
                 "caja" to 0
             )
 
