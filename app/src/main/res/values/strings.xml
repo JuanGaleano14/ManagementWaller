@@ -30,6 +30,8 @@
     <string name="lbl_cuenta_apellido">Apellido</string>
     <string name="lbl_cuenta_correo_registrado">Correo registrado</string>
     <string name="lbl_cuenta_fecha_de_registro">Fecha de Registro</string>
+    <string name="lbl_informe_de_movimientos">Informe de Movimientos</string>
+    <string name="lbl_movimientos">Movimientos del día actual</string>
 
     <string-array name="egresos_array">
         <item>Seleccione un concepto…</item>
